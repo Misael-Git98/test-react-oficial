@@ -4,9 +4,16 @@
   "description": "'nada'",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "vite": "^5.4.11"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.28.0"
+  }
 }
